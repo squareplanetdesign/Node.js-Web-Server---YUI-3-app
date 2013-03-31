@@ -1,0 +1,12 @@
+{
+    "debug" : true,
+    "dump-type" : "text/plain",
+    "dump-functions" : false,
+    "dump-to-response" : true,
+    "cache" : {
+        "maxPages" : 10,
+        "expires" : 10000
+    },
+    "root" : "../client/",
+    "default" : "default.html"
+}
