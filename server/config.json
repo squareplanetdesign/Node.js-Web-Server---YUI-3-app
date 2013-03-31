@@ -4,8 +4,8 @@
     "dump-functions" : false,
     "dump-to-response" : true,
     "cache" : {
-        "maxPages" : 10,
-        "expires" : 10000
+        "ttl" : 100,
+        "check" : 120
     },
     "root" : "../client/",
     "default" : "default.html"
